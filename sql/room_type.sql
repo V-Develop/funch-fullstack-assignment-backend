@@ -1,0 +1,11 @@
+-- create table `room_type` (
+--     id int primary key auto_increment,
+--     name varchar(255) not null unique,
+--     price double not null,
+--     created_at datetime not null,
+--     created_by varchar(255) not null,
+--     updated_at datetime not null,
+--     updated_by varchar(255) not null
+-- )
+
+-- commend is for new feature (can book multiple room)

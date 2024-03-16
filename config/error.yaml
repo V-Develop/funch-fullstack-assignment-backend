@@ -1,0 +1,71 @@
+common_error: 
+  bind_json_error:
+    code: "10000"
+    message: "Invalid data format" 
+  cannot_read:
+    code: "10001"
+    message: "Can not read a value" 
+  not_found_data:
+    code: "10002"
+    message: "Not found data"
+  internal_server_error: 
+    code: "10003"
+    message: "Internal server error"
+
+auth_error:
+  invalid_email_empty: 
+    code: "20000"
+    message: "Email can not be empty"
+  invalid_password_empty: 
+    code: "20001"
+    message: "Password can not be empty"
+  invalid_email_format: 
+    code: "20002"
+    message: "Email format is invalid"
+  invalid_password_length:
+    code: "20003"
+    message: "Password must be at least 8 characters"
+  invalid_password_upper_lower_case:
+    code: "20004"
+    message: "Password must contain both upper and lower case letters"
+  invalid_password_special_character:
+    code: "20005"
+    message: "Password must contain special character"
+  invalid_password_not_match:
+    code: "20006"
+    message: "Password and repeat password not match"
+  invalid_duplicate_email:
+    code: "20007"
+    message: "Email already is use"
+  invalid_email_or_password:
+    code: "20008"
+    message: "Invalid email or password"
+  invalid_access:
+    code: "20009"
+    message: "Access Denied"
+
+user_error:
+  invalid_firstname_or_lastname:
+    code: "30000"
+    message: "Firstname or lastname is invalid"
+  invalid_phone_number:
+    code: "30001"
+    message: "Phone number is invalid"
+  invalid_book_room_date:
+    code: "30002"
+    message: "Book room date is invalid"
+  invalid_user_email_empty:
+    code: "30003"
+    message: "Email can not be empty"
+  invalid_firstname_empty:
+    code: "30004"
+    message: "Firstname can not be empty"
+  invalid_lastname_empty:
+    code: "30005"
+    message: "Lastname can not be empty"
+  invalid_phone_umber_empty:
+    code: "30006"
+    message: "Phone number can not be empty"
+  invalid_user_email_format:
+    code: "30007"
+    message: "Email format is invalid"
